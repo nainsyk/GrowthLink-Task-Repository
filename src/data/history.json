@@ -1,0 +1,10 @@
+[
+  {
+    "role": "Internship Trainee",
+    "organisation": "NTPC Shaktinagar",
+    "startDate": "jul 2023",
+    "endDate": "Aug 2023",
+    "experiences": ["Completed my vocational training at NTPC Limited's IT Center", "Developed proficiency in MySQL Database Management"],
+    "imageSrc": "history/ntpc.png"
+  }
+]

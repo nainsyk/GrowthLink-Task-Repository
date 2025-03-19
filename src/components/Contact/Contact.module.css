@@ -1,0 +1,186 @@
+@import "../../vars.css";
+
+/* Contact Container */
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  padding: 80px 10%;
+  gap: 50px;
+}
+
+/* Contact Header */
+.text {
+  text-align: center;
+}
+
+.text h2 {
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 15px;
+}
+
+.text p {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+/* Form Styling */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  border: 1px solid var(--color-text);
+  border-radius: 8px;
+  background-color: white;
+  color: var(--color-text);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Input Hover & Focus Effects */
+.form input:hover,
+.form textarea:hover {
+  border-color: var(--color-accent);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.form input:focus,
+.form textarea:focus {
+  border-color: gray;
+  outline: none;
+}
+
+/* Form Button */
+.form button {
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--color-secondary);
+  background-color: var(--color-text);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.form button:hover {
+  background-color: var(--color-text);
+  transform: scale(1.05);
+}
+
+/* Success Message */
+.successMessage {
+  font-size: 18px;
+  color: var(--color-accent);
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Social Links */
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.socialIcons a img {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.socialIcons a img:hover {
+  transform: scale(1.2);
+}
+
+/* Responsive Design */
+
+/* Tablets (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 60px 8%;
+    gap: 40px;
+  }
+
+  .text h2 {
+    font-size: 65px;
+  }
+
+  .text p {
+    font-size: 30px;
+  }
+
+  .form {
+    max-width: 450px;
+  }
+
+  .socialIcons a img {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+/* Mobile (max-width: 830px) */
+@media screen and (max-width: 830px) {
+  .container {
+    padding: 50px 5%;
+    gap: 35px;
+  }
+
+  .text h2 {
+    font-size: 50px;
+  }
+
+  .text p {
+    font-size: 25px;
+  }
+
+  .form {
+    max-width: 400px;
+  }
+
+  .socialIcons a img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Small Mobile Devices (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 30px 3%;
+    gap: 30px;
+  }
+
+  .text h2 {
+    font-size: 40px;
+  }
+
+  .text p {
+    font-size: 20px;
+  }
+
+  .form {
+    max-width: 100%;
+  }
+
+  .socialIcons a img {
+    width: 35px;
+    height: 35px;
+  }
+}

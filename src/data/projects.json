@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Ecommerce Shop Web Application",
+    "imageSrc": "projects/project.png",
+    "description": "Built a responsive e-commerce shop cart enabling real-time updates and persistent state with add/remove cart features.",
+    "skills": ["React", "Redux Toolkit"],
+    "demo": "https://shop-cart-app-using-react.vercel.app/",
+    "source": "https://github.com/nainsyk/Shop-Cart-App-using-REACT.git/"
+  },
+  {
+    "title": "Personal Portfolio",
+    "imageSrc": "projects/project.png",
+    "description": " Showcased my skills in front-end development employed animations to enhance user engagement and visual appeal.",
+    "skills": ["React", "json", "Css"],
+    "demo": "https://nainsy-personal-portfolio.vercel.app/",
+    "source": "https://github.com/nainsyk/Personal-Portfolio-using-React.git"
+  },
+  {
+    "title": "Weather Web Application",
+    "imageSrc": "projects/project.png",
+    "description": "Display real-time weather information utilized APIs for data retrieval and implemented responsive design  for optimal user experience.",
+    "skills": ["Html", "Css", "JavaScript"],
+    "demo": "https://weather-app-eight-eta-86.vercel.app/",
+    "source": "https://github.com/nainsyk/Weather-App.git"
+  }
+]
