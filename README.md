@@ -3,7 +3,7 @@ Task 1: Portfolio Website Using React.js
 # Personal Portfolio using React
 
 ## Task Objectives
-This project is a personal portfolio website built using **React**. It showcases projects, skills, and personal information in a well-structured and visually appealing way.
+This project is a personal portfolio website built using **React**. It showcases projects, skills, and personal information in a well-structured and visually appealing way exactly like online resume.
 
 ## Technologies Used
 - React.js
