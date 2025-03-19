@@ -24,4 +24,8 @@ To install the required dependencies, run:
 - Start the Development Server
 To run the project locally, use:
 ##   **npm run dev**
+
+## Deployment of the project
+- Also for Live Demo, I deploy this project on vercel i.e.
+  ## **https://nainsy-personal-portfolio.vercel.app/**
   
