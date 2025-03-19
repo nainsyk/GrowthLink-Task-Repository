@@ -17,10 +17,10 @@ This project is a personal portfolio website built using **React**. It showcases
 
 ## Steps to Run the Project
 
--Install Dependencies
+- Install Dependencies
 To install the required dependencies, run:
--**npm install**
+- **npm install**
 - Start the Development Server
 To run the project locally, use:
--**npm run dev**
+- **npm run dev**
   
